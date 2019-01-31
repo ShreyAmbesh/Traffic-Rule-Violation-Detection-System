@@ -43,8 +43,8 @@ If you find any problem you can contact me or raise an issue.
 
 ## Built With
 
-* [Tensorflow](https://www.tensorflow.org/) - The web framework used
-* [OpenALPR](https://www.openalpr.com/) - Dependency Management
+* [Tensorflow](https://www.tensorflow.org/) - ML library
+* [OpenALPR](https://www.openalpr.com/) - For detecting license plate and extracting license plate number
 
 ## License
 
