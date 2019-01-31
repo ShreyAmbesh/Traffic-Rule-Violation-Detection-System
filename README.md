@@ -17,6 +17,8 @@ Python packages to be installed
 * imutils
 * Pillow
 * numpy
+* tkinter
+* urllib
 * openALPR api
 ```
 Make account on openalpr and get api secret key from [OpenALPR](https://www.openalpr.com/)
