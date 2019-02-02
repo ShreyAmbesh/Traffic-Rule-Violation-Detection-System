@@ -25,7 +25,7 @@ Make account on openalpr and get api secret key from [OpenALPR](https://www.open
 
 ## Installing
 
-Clone the repo and paste your secret key in VehicleMonitor.py file on line 58.
+Clone the repo and paste your secret key in [VehicleMonitor.py](https://github.com/ShreyAmbesh/Traffic-Rule-Violation-Detection-System/blob/master/VehicleMoniter.py) file on line 58.
 run the project by the command ```python3 VehicleMonitor.py```
 
 
@@ -48,4 +48,4 @@ If you find any problem you can contact me or raise an issue.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ShreyAmbesh/Traffic-Rule-Violation-Detection-System/blob/master/LICENSE) file for details
