@@ -1,3 +1,5 @@
+### Note - I am not able to maintain this repository because of shortage of time, so if anyone who is interested in helping maintain this repository can contact me and I can add you as a maintainer, Thanks. 
+
 # Traffic Rule Violation Detection System
 
 This project tries to detect a car whenever it crosses a Red Light or overspeeds.
