@@ -2165,13 +2165,13 @@ class PreprocessorTest(tf.test.TestCase):
     max_dim = 100
     expected_shape_list = [[75, 50, 3], [50, 100, 3], [30, 100, 3]]
 
+    in_image = tf.placeholder(tf.float32, shape=(None, None, 3))
+    out_image, _ = preprocessor.resize_to_range(
+        in_image, min_dimension=min_dim, max_dimension=max_dim)
+    out_image_shape_0 = tf.shape(out_image)
     for in_shape, expected_shape in zip(in_shape_list, expected_shape_list):
-      in_image = tf.placeholder(tf.float32, shape=(None, None, 3))
-      out_image, _ = preprocessor.resize_to_range(
-          in_image, min_dimension=min_dim, max_dimension=max_dim)
-      out_image_shape = tf.shape(out_image)
       with self.test_session() as sess:
-        out_image_shape = sess.run(out_image_shape,
+        out_image_shape = sess.run(out_image_shape_0,
                                    feed_dict={in_image:
                                               np.random.randn(*in_shape)})
         self.assertAllEqual(out_image_shape, expected_shape)
